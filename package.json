@@ -1,0 +1,21 @@
+{
+  "name": "roles-manager",
+  "version": "1.0.0",
+  "description": "Manage user roles from twitch to send to Discord server",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/varelycode/roles-manager.git",
+  "author": "Viviana Rosas <virosas@ucdavis.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/index.js",
+    "dev": "ts-node ./src/index.tsx"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  }
+}
