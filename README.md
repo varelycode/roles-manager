@@ -15,3 +15,5 @@ Allows users to get twitch subscription to certain streamer and display within d
 [] Get discord user profile data
 
 [] See connections to third-party apps, specifically twitch
+
+[] Add graphql to application
