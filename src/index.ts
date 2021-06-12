@@ -24,7 +24,7 @@ const run = async (): Promise<appAccess | Error> => {
     method: "POST",
     redirectTo: "follow",
     headers: {
-      Accept: "application/json",
+      Accept: "applicatxion/json",
       "Content-Type": "application/json; charset=UTF-8",
     },
   };
@@ -53,7 +53,7 @@ const handleResponse = async (
     },
   };
 
-  const url = "https://api.twitch.tv/helix/search/channels?query=viralhugs";
+  const url = "https://api.twitch.tv/helix/search/channels?query=hasanbi";
 
   const res = await fetch(url, requestOptions)
     .then((response) => response.json())
